@@ -7,7 +7,7 @@ body{
 /*Background Image*/
 body{
     
-    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../Projectimg/background2.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(background2.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
