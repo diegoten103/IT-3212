@@ -1,3 +1,8 @@
+/*Diego Tenesaca
+IT 3212 Intro to Web Development
+January 20, 2022
+CSS Style Sheet*/
+
 body{
     font-family: sans-serif;
     margin: 0;
@@ -7,7 +12,7 @@ body{
 /*Background Image*/
 body{
     
-    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(background2.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../Projectimg/background2.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -45,7 +50,6 @@ header nav a::after{
     height: 3px;
     left: 0;
     position: absolute; 
-    transition: 0.5s;
     width: 0;
 }
 header nav a:hover::after{
@@ -78,14 +82,14 @@ button {
     border-radius: 25px;
     color: #fff;
     cursor: pointer;
+    font-size: 24px;
     font-weight: bold;
-    font-size: 16px;
     margin: 20px 10px;
     overflow: hidden;
-    padding: 15px;
+    padding: 10px;
     position: relative;
     text-align: center;
-    width: 200px;
+    
 }
 span {
     background: #07bcf3;
@@ -94,7 +98,6 @@ span {
     height: 100%;
     left: 0;
     position: absolute;
-    transition: 0.5s;
     width: 0;
     z-index: -1;
 }
@@ -128,3 +131,4 @@ footer a {
     font-weight: bold;
     text-decoration: none;
 }
+
