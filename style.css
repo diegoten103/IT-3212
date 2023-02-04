@@ -236,7 +236,6 @@ td {
 #image1, #image2, #image3 {
     border: 1px solid #07bcf3;
     cursor: pointer;  
-    margin: 10px;
     position: relative;
     width: auto;
 }
