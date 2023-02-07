@@ -29,40 +29,110 @@
         <a href="reviews.html">Reviews</a>
       </nav>
     </header>
-    <article>
-      <div class="contact-form">
-        <h1>CONTACT US</h1>
-        <div class="info">
-          <label> Full Name</label>
-          <input type="text" name="" value="" placeholder="Enter Your Name" />
+    <form>
+      <div class="contact2">
+        <h2>Please contact us for a FREE estimate</h2>
+
+        <div class="info2">
+          <label> Select Property Type:</label>
+          Residential
+          <input type="radio" name="work" />
+          Commercial
+          <input type="radio" name="work" />
         </div>
-        <div class="info">
-          <label> Email</label>
-          <input type="text" name="" value="" placeholder="Enter Your Email" />
+        <fieldset>
+          <legend>Basic Info</legend>
+          <div class="info">
+            <label> First Name</label>
+            <input
+              type="text"
+              name="firstname"
+              placeholder="Enter Your First Name"
+            />
+          </div>
+          <div class="info">
+            <label> Last Name</label>
+            <input
+              type="text"
+              name="lastname"
+              placeholder="Enter Your Last Name"
+            />
+          </div>
+          <div class="info">
+            <label> Street Address</label>
+            <input
+              type="text"
+              name="home-adress"
+              placeholder="Enter Your Street Address"
+            />
+          </div>
+          <div class="info2">
+            <label for="city">City:</label>
+            <select name="City" id="city">
+              <option value="brookfield">Brookfield</option>
+              <option value="danbury">Danbury</option>
+              <option value="bethel">Bethel</option>
+              <option value="brewster">Brewster</option>
+            </select>
+          </div>
+          <div class="info">
+            <label> State</label>
+            <input type="text" name="state" placeholder="Enter Your State" />
+          </div>
+          <div class="info">
+            <label> Zipcode</label>
+            <input
+              type="text"
+              name="zipcode"
+              placeholder="Enter Your Zipcode"
+            />
+          </div>
+        </fieldset>
+        <br />
+        <fieldset>
+          <legend>Contact Details</legend>
+          <div class="info">
+            <label> Email</label>
+            <input type="text" name="email" placeholder="Enter Your Email" />
+          </div>
+          <div class="info">
+            <label> Phone Number</label>
+            <input
+              type="text"
+              name="phonenumber"
+              placeholder="Enter Your Phone Number"
+            />
+          </div>
+          <div class="info2">
+            <label> Prefered Contact Method:<br /><br /></label>
+            Phone
+            <input type="checkbox" name="contact" />
+            Text
+            <input type="checkbox" name="contact" />
+            Email
+            <input type="checkbox" name="Contact" /><br />
+          </div>
+          <div class="info">
+            <label> Discription of work Needed</label>
+            <textarea rows="5" cols="20"></textarea>
+          </div>
+        </fieldset>
+
+        <div class="info3">
+          <input type="Submit" value="Submit" />
         </div>
-        <div class="info">
-          <label> Phone Number</label>
-          <input
-            type="text"
-            name=""
-            value=""
-            placeholder="Enter Your Phone Number"
-          />
-        </div>
-        <div class="info">
-          <label> Message</label>
-          <textarea></textarea>
-        </div>
-        <a class="btn">Send</a>
       </div>
-    </article>
-    <footer>
-      &copy;<a href="../jselectricalservicesllc/index.html">2022 J.S. Electical Services LLC</a> &#8226;
-      81 Grassy Plain Road, Bethel CT &nbsp; 06899 &#8226;<a
-        href="”tel:+12034704951”"
-        >(203) 470-4951
-      </a>
-      &#8226;CT-E1 Lic. #115833
-    </footer>
+    </form>
+    <form action="response_page.php" method="post"></form>
+    <br />
+    <div class="footer2">
+      <footer>
+        &copy;<a href="/index.html">2022 J.S. Electical Services LLC</a> &#8226;
+        81 Grassy Plain Road, Bethel CT &nbsp; 06899 &#8226;<a
+          href="”tel:+12034704951”"
+          >(203) 470-4951
+        </a>
+        &#8226;CT-E1 Lic. #115833
+      </footer>
   </body>
 </html>
